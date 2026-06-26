@@ -21,7 +21,7 @@ I designed and shipped a production-grade multi-agent AI platform from scratch �
 
 ## 🏆 Highlighted Work
 
-[autonomous-ai-platform](https://github.com/santicalderon/autonomous-ai-platform) — multi-agent platform running 60+ processes 24/7. Self-healing code loops, D16 autonomous codebase maintenance, content pipeline with 24 videos published and 5,900+ organic views at $0 ad spend.
+[autonomous-ai-platform](https://github.com/santicalderon/autonomous-ai-platform) — multi-agent platform built solo in 6 months. Self-healing code loops, D16 autonomous codebase maintenance, stigmergy coordination. 24 videos published, $0 ad spend. Found the system lying to me — rearchitected the measurement layer. Still running.
 
 [burnstop](https://github.com/santicalderon/burnstop) — pre-flight budget gate for AI agent runaways. Hard-stop before token-1. Drop-in adapters for LangChain, LangGraph, AutoGen, CrewAI. Because the model that loops is the same one you'd ask to self-throttle.
 
