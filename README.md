@@ -1,50 +1,43 @@
-# Santiago Calderon
+# Hey, I'm Santiago 👋
 
-**I build AI systems that run in production without human intervention.**
+**AI Systems Builder · Performance marketer turned autonomous infrastructure engineer · Copenhagen**
 
-Performance marketer (Publicis · Accenture) → solo-built a multi-agent autonomous AI platform in 6 months. Currently running 24/7 on dedicated infrastructure. Every process operates without me touching it.
+> I ran paid media at agency scale for 2 years. Then I spent 6 months building the system that should have existed.
 
----
+I designed and shipped a production-grade multi-agent AI platform from scratch — solo, no team, no budget. It runs 24/7 on dedicated infrastructure, generates content autonomously, writes and repairs its own code, and monitors its own health without human intervention.
 
-## What's running in production
-
-| System | Status |
-|---|---|
-| Multi-agent coordination layer (no central controller) | 🟢 live |
-| Self-healing code generation loop (write → test → repair) | 🟢 live |
-| Autonomous content pipeline (YouTube) | 🟢 live |
-| D16 codebase maintenance engine (classify → apply → log) | 🟢 live |
-| Signal oracle: 12+ health dimensions, auto-alerting | 🟢 live |
-| 60+ scheduled processes, dedicated Linux server (Hetzner) | 🟢 live |
+[Portfolio](https://kernel.mi-kernel2026.xyz) · [LinkedIn](https://www.linkedin.com/in/santiagocalderongonzalez/)
 
 ---
 
-## What I found while building it
+## 🚀 What I Ship
 
-Six months in, I discovered the system was lying to me — metrics that looked alive, output that was zero. Active graphs, empty outcomes. I called it "theater."
-
-The fix wasn't a patch. It was rearchitecting the measurement layer: every signal had to prove a real outcome existed, not just that a process ran. That distinction — between structural activity and effective output — is now baked into how I build everything.
-
----
-
-## Projects
-
-| Repo | What it is |
-|---|---|
-| [autonomous-ai-platform](https://github.com/santicalderon/autonomous-ai-platform) | The platform — multi-agent, self-healing, 60+ processes, 24/7 |
-| [burnstop](https://github.com/santicalderon/burnstop) | Pre-flight budget gate for AI agent runaways — LangChain · AutoGen · CrewAI · LangGraph |
-| [claude-memory-mcp](https://github.com/santicalderon/claude-memory-mcp) | Cross-session persistent memory for Claude Code (MCP server) |
-| [agentic-receipts](https://github.com/santicalderon/agentic-receipts) | DID-signed audit trail for autonomous agent actions — EU AI Act / SOC2 ready |
-| [kernel](https://github.com/santicalderon/kernel) | Live autonomous AI business substrate — pain discovery → product → Stripe → self-modifies |
+- **Autonomous AI systems** — multi-agent orchestration, stigmergy coordination, no central controller
+- **Self-healing infrastructure** — agents that write, test, and repair their own code iteratively
+- **LLM routing + cost control** — intelligent caching, budget gates, 64% cost reduction in production
+- **Production pipelines** — not demos, not POCs — systems with uptime, real outputs, and measurable outcomes
 
 ---
 
-## Stack
+## 🏆 Highlighted Work
 
-`Python` · `Multi-agent systems` · `Claude API` · `DeepSeek` · `LLM routing` · `Linux/systemd` · `MCP` · `YouTube Data API` · `Stripe`  
-Prior: `Google Ads` · `Meta Ads` · `DV360` · `Programmatic`
+[autonomous-ai-platform](https://github.com/santicalderon/autonomous-ai-platform) — multi-agent platform running 60+ processes 24/7. Self-healing code loops, D16 autonomous codebase maintenance, content pipeline with 24 videos published and 5,900+ organic views at $0 ad spend.
+
+[burnstop](https://github.com/santicalderon/burnstop) — pre-flight budget gate for AI agent runaways. Hard-stop before token-1. Drop-in adapters for LangChain, LangGraph, AutoGen, CrewAI. Because the model that loops is the same one you'd ask to self-throttle.
+
+[claude-memory-mcp](https://github.com/santicalderon/claude-memory-mcp) — cross-session persistent memory for Claude Code via MCP. Git-tracked, markdown-native.
+
+[agentic-receipts](https://github.com/santicalderon/agentic-receipts) — DID-signed audit trail for autonomous agent actions. EU AI Act / SOC2 / ISO 42001 ready. Pure stdlib.
 
 ---
 
-📍 Copenhagen, Denmark · EU citizen  
-🌐 [kernel.mi-kernel2026.xyz](https://kernel.mi-kernel2026.xyz) · 📧 calderonsantiago98@gmail.com · [LinkedIn](https://www.linkedin.com/in/santiagocalderongonzalez/)
+## 📝 What I learned building in production
+
+- **Theater vs output**: a system can look active (logs, graphs, crons firing) while producing zero real outcomes. I found this inside my own platform and rearchitected the measurement layer from scratch. Every signal now has to prove a real output exists, not just that a process ran.
+- **Race conditions at scale**: 60+ concurrent cron jobs colliding — solved with fcntl mutex + O_EXCL atomic file claims
+- **LLM cost blowups**: multi-tier routing + intelligent caching layer → 64% cost reduction without degrading output quality
+
+---
+
+📍 Copenhagen, Denmark · EU citizen · Open to AI/automation roles in Europe or remote  
+📧 calderonsantiago98@gmail.com
